@@ -1,5 +1,5 @@
 <template>
-    <div>
-        Hello mastering nuxt3!
+    <div class="bg-red-400">
+        Hello mastering nuxt3 tutorial!
     </div>
 </template>
