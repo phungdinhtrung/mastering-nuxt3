@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-red-400">
-        Hello mastering nuxt3 tutorial!
+    <div class="bg-slate-400 h-screen">
+        Trang chủ
     </div>
 </template>
