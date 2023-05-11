@@ -3,6 +3,13 @@ const course = useCourse()
 const chapter = course.chapters[0].title
 const lesson = course.chapters[0].lessons[0].title
 
+// useHead
+useHead({
+    title: 'Course'
+})
+
+
+
 </script>
 
 <template>
@@ -13,5 +20,7 @@ const lesson = course.chapters[0].lessons[0].title
 
     <div>Video player</div>
     <VideoPlayer :videoId="`video1`"></VideoPlayer>
+
+    <div></div>
     
 </template>
