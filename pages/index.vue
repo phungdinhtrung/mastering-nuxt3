@@ -12,10 +12,10 @@ var isLogin = useIsLogin()
 
 const handChangeLogin = () => {
     isLogin.value = !isLogin.value
+    progress.value = isLogin.value;
 }
 
-const useProgress = useState<Boolean>('progress', () => {
-    return isLogin.value
-})
+// useLocalStorage
+const progress = useLocalStorage('progress', true)
 
 </script>
