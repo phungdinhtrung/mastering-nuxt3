@@ -8,7 +8,10 @@ useHead({
     title: 'Course'
 })
 
-
+// Use layout
+definePageMeta({
+    layout: 'custom'
+})
 
 </script>
 

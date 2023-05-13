@@ -5,10 +5,7 @@ const isLogin = useIsLogin()
 
 </script>
 
-<template>
-    <NuxtLink to="/" class="mr-5">Trang chủ</NuxtLink>
-    <NuxtLink to="/course">Course</NuxtLink>
-    
+<template>   
     <div class="flex justify-center">
         Course
     </div>

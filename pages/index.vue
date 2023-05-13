@@ -1,7 +1,4 @@
 <template>
-    <NuxtLink to="/" class="mr-5">Trang chủ</NuxtLink>
-    <NuxtLink to="/course">Course</NuxtLink>
-        
     <div @click="handChangeLogin()">Change Login: {{ isLogin }}</div>
 
 </template>
