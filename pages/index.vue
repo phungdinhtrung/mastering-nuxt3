@@ -1,5 +1,5 @@
 <template>
-    <div @click="handChangeLogin()">Change Login: {{ isLogin }}</div>
+    <div @click="handChangeLogin()"><button class="bg-slate-500 my-5">Change Login</button> {{ isLogin }}</div>
 
 </template>
 

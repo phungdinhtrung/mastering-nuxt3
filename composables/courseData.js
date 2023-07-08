@@ -7,7 +7,8 @@ export default {
             number: 1,
             lessons: [
                 {
-                    title: 'Introduce to typescript with vue 3'
+                    title: 'Introduce to typescript with vue 3',
+                    slug: 'lesson-1'
                 }
             ]
         }

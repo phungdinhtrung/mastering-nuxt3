@@ -1,3 +1,7 @@
+<script setup lang="ts">
+
+</script>
+
 <template>
     <h2>course/[chapterSlug]/[[lessonSlug]].vue</h2>
     <p>This is a lesson</p>    

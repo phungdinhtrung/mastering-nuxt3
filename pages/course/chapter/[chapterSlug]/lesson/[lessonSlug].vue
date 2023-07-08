@@ -10,13 +10,12 @@ useHead({
 
 // Use layout
 definePageMeta({
-    layout: 'custom'
+    layout: 'default'
 })
 
 </script>
 
 <template>
-    <h2>course/chapter-[chapterSlug]/lesson-[lessonSlug].vue</h2>
     <p>This is a lesson</p>    
     <p>Chapter slug: {{ $route.params.chapterSlug }}, {{ chapter }}</p>    
     <p>lesson slug: {{ $route.params.lessonSlug }}, {{ lesson }}</p>    

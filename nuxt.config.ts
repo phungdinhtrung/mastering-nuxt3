@@ -7,6 +7,11 @@ export default defineNuxtConfig({
           autoprefixer: {},
         },
     },
+    imports: {
+        dirs: [
+          'composables/**'
+        ]
+    },
     modules: [
         '@vueuse/nuxt',
     ],
